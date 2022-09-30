@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+   
+         
+                   
+         <a href="{% url 'index' %}" > Back to item list</a>
+         <h3>{{ item.explanation| capfirst}}</h3>
+         <h1>{{ item.tips_and_tricks| capfirst}} </h1>
+         <pre>{{item.code}}</pre>
+         
+          
+                  
+{%endblock%}

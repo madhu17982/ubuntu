@@ -1,0 +1,22 @@
+h1,h2,h3,h4,h5{
+    font-size: 1.5em;
+    color:green;
+ }
+
+a{
+    font-size: 5em;
+    color:red;
+    }
+    
+.imgContainer img {
+  width: 200px;
+  height: 120px;
+}
+
+body {
+ 
+ background-color: powerblue;
+}
+ul {
+    list-style-type:none;
+}
